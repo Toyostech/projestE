@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 50px;
+    
+}
+.nav_link {
+    color: blue;
+    min-width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+.active {
+    background: red;
+    color: aliceblue;
+}
